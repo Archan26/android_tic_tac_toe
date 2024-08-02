@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/idTVHead1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to \n Tic-Tac-Toe \n Game"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/textLight"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/idBtnSinglePlayer"
+        android:layout_below="@id/idTVHead1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_yellow"
+        android:textColor="@color/textDark"
+        android:padding="10dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi Player"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/idBtnMultiPlayer"
+        android:layout_below="@id/idBtnSinglePlayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_blue"
+        android:textColor="@color/textDark"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>

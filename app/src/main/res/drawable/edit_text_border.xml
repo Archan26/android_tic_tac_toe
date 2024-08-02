@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the background color inside the border (optional) -->
+    <solid android:color="@color/textDark" />
+
+    <!-- Set the corner radius (optional, for rounded corners) -->
+    <corners android:radius="6dp" />
+
+    <!-- Set the border (stroke) properties -->
+    <stroke
+        android:width="4dp"
+        android:color="@color/textLight" />
+</shape>

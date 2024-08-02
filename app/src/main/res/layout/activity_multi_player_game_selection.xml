@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiPlayerGameSelectionActivity"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select Mode"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/textLight"
+        android:id="@+id/idTVHead"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/textDark"
+        android:textAllCaps="false"
+        android:id="@+id/idBtnOnline"
+        android:layout_below="@id/idTVHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_yellow" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offline"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/textDark"
+        android:id="@+id/idBtnOffline"
+        android:layout_below="@id/idBtnOnline"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_blue"/>
+</RelativeLayout>

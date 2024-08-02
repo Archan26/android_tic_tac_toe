@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineCodeGeneratorActivity"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please \n Create the Code or \n Enter the Code"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/textLight"
+        android:layout_marginTop="150dp"
+        android:id="@+id/idTVHead"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHead"
+        android:hint="Enter Code"
+        android:id="@+id/idEdtCode"
+        android:textColor="@color/textLight"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_border"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtCode"
+        android:layout_centerHorizontal="true"
+        android:text="Create"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/textDark"
+        android:textAllCaps="false"
+        android:id="@+id/idBtnCreate"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_yellow"/>
+
+    <Button
+        android:id="@+id/idBtnJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnCreate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Join"
+        android:textStyle="bold"
+        android:textColor="@color/textDark"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_blue"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/idPBLoading" />
+
+</RelativeLayout>
