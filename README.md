@@ -11,6 +11,7 @@ Welcome to the Tic Tac Toe Android App project! This project is a versatile impl
 - Firebase Database integration for storing and retrieving game data for online multiplayer.
 
 ## Screen Shots
+<img src="https://github.com/user-attachments/assets/a2e9275a-7464-49f7-b79a-97ea597f4146" alt="SS3" width="400"/>
 ![SS3](https://github.com/user-attachments/assets/a2e9275a-7464-49f7-b79a-97ea597f4146)
 ![SS2](https://github.com/user-attachments/assets/3af51f03-1a17-4819-adcb-e536d0dc311a)
 ![SS1](https://github.com/user-attachments/assets/af53555b-9e16-45aa-9e34-0320d9f21aec)
